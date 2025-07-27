@@ -21,9 +21,12 @@
   color: #727272;
 }
 
-.bg-light {
-  width: 1920px;
+.container{
+  width: 1140px;
   margin: 0px auto;
+}
+
+.bg-light {
   background-color: rgba(255, 144, 14, 0.1);
 }
 .btn-pirmary {
@@ -58,12 +61,8 @@ main > section {
   font-weight: 400px;
   font-size: 18px;
 }
-.navbar,
-.banner,
-main {
-  width: 1440px;
-  margin: 0px auto;
-}
+
+
 /* Banner style */
 .banner-content {
   max-width: 850px;
@@ -80,8 +79,18 @@ main {
   min-width: 100%;
   border-radius: 8px;
 }
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+}
 .teams {
+  gap: 2rem;
   align-items: center;
+}
+
+.our-featurs{
+    margin-left: 1rem;
 }
 
 /* responsive media query */
